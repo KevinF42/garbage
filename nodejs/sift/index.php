@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="../../css/custom.css">
+
+<div class="header">
+  <h1>Kevin.IOE</h1>
+</div>
+
+
+<div class="col-3 menu">
+  <ul>
+   <li><a href="/sift/BinarySearch.js/">Binary Search.js</a></li>
+	<li><a href="/sift/binarysearch2.js/">Binary Search2.js</a></li>
+		<li><a href="/sift/bsearch-bigarray2.js/">bigarray2.js</a></li>
+		<li><a href="/sift/createInt.js/">Createint.js</a></li>
+			<li><a href="/sift/randomCharUpper.txt/">randomcharlower.txt</a></li>
+				<li><a href="/sift/randomCharUpper.js/">randomcharupper.js</a></li>
+					<li><a href="/sift/randomInt.txt/">randomint.txt</a></li>
+						
+  </ul>
+</div>
