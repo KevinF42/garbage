@@ -1,0 +1,13 @@
+<?php
+   $hostname = "localhost";
+   $database = "stream";
+   $username = "abcdefghijklmnopqrstuvwxyz";
+   $password = "1234567";
+	
+  	function clean($input, $maxlength)
+ 	{
+     $input = substr($input, 0, $maxlength);
+    $input = EscapeShellCmd($input);
+   return ($input);
+  }
+?>
