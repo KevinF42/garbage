@@ -1,0 +1,48 @@
+#red{
+position:absolute;
+top:400px;
+width:100px;
+background:#ddd;
+color: #FF0000;
+clip: polygon();
+}
+#orange{
+position:absolute;
+top:400px;
+width:100px;
+background:#FFA500;
+color:#FFA500
+clip: polygon();
+}
+#yellow{
+position:absolute;
+top:400px;
+width:100px;
+background:#ddd;
+color:#FFFF00
+clip: polygon();
+}
+#green{
+position:absolute;
+top:400px;
+width:100px;
+background:#ddd;
+color:#008000
+clip: polygon();
+}
+#blue{
+position:absolute;
+top:400px;
+width:100px;
+background:#ddd;
+color:#0000FF
+clip: polygon();
+}
+#violet{
+position:absolute;
+top:400px;
+width:100px;
+background:#ddd;
+color:#8F5E99
+clip: polygon();
+}
