@@ -18,7 +18,23 @@ flag.</a></li>
 
 <div class="col-6">
 	<h1>  
-  <a href="redirect.php"> <img src="flag.jpeg"width="320" height="320"></a>
+  <a href="redirect.php"> <img src="flag{Kurbo}.gif"width="320" height="320"></a>
+<?php
+// You can used any file extension to output the file for download
+$file = 'flag{Kurbo}.gif';
+
+if (file_exists($file)) {
+    header('Content-Description: File Transfer');
+    header('Content-Type: application/octet-stream');
+    header('Content-Disposition: attachment; filename="'.basename($file).'"');
+    header('Expires: 0');
+    header('Cache-Control: must-revalidate');
+    header('Pragma: public');
+    header('Content-Length: ' . filesize($file));
+    readfile($file);
+    exit;
+}
+?>
   </h1>
 <div class="footer">
   <p>Welcome to My site!</p>
